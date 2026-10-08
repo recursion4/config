@@ -7,5 +7,8 @@ backspace = hangeul
 
 leftshift = oneshot(shift)
 leftalt = oneshot(alt)
+leftcontrol = oneshot(control)
 
 scrolllock = capslock
+
+rightalt = clear()
