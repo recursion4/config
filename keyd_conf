@@ -5,7 +5,7 @@
 capslock = backspace
 backspace = hangeul
 
-leftshift = oneshot(shift)
+shift = oneshot(shift)
 leftalt = oneshot(alt)
 leftcontrol = oneshot(control)
 
