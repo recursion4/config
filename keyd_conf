@@ -3,7 +3,7 @@
 
 [main]
 capslock = backspace
+backspace = hangeul
+leftshift = oneshot(shift)
 
-[shift]
-leftshift = capslock
-rightshift = capslock
+scrolllock = capslock
