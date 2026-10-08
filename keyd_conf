@@ -4,6 +4,8 @@
 [main]
 capslock = backspace
 backspace = hangeul
+
 leftshift = oneshot(shift)
+leftalt = oneshot(alt)
 
 scrolllock = capslock
