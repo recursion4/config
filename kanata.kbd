@@ -1,0 +1,31 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+;; Linux KEY_HANGEUL = 122
+(deflocalkeys-linux
+  han 122
+)
+
+(defsrc)
+
+(defalias
+  os-shift (one-shot 5000 lsft)
+  os-alt   (one-shot 5000 lalt)
+  os-ctrl  (one-shot 5000 lctl)
+)
+
+(deflayermap (base)
+  caps  bspc
+  bspc  han
+
+  lsft  @os-shift
+  rsft  @os-shift
+
+  lalt  @os-alt
+  lctl  @os-ctrl
+
+  slck  caps
+
+  ralt  XX
+)
